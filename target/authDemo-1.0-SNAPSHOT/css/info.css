@@ -1,0 +1,53 @@
+
+.wrapper {
+    width: 50%;
+    height: 60%;
+    margin: 17rem 40rem;
+    padding: 5rem;
+    border-radius: 5rem;
+    border: 2px rgb(255,130,130) solid;
+    box-shadow: 7px 4px 22px 5px rgba(0,0,0,0.8);
+}
+
+.wrapper h1 {
+    text-align: center;
+    color: rgb(255,130,130);
+}
+
+.wrapper p {
+    margin: 4rem;
+    font-size: 2rem;
+}
+
+.wrapper p span {
+    padding: 1rem;
+    border-radius: 5rem;
+    background-color: rgb(255,130,130);
+}
+
+.logout {
+    background-color: rgb(255,130,130);
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    border-radius: 5rem;
+    width: 8%;
+}
+
+#btn {
+    background-color: rgb(255,130,130);
+    border-radius: 5rem;
+    padding: 2rem;
+    color: white;
+    border: none;
+}
+
+#btn img {
+    width: 15%;
+    height: 10%;
+    margin-left: 1rem;
+}
+
+#btn:hover {
+    box-shadow: 7px 14px 35px -1px rgba(0,0,0,0.84);
+}

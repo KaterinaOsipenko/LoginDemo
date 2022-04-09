@@ -1,0 +1,113 @@
+
+.wrapper {
+    display: flex;
+    width: 65%;
+    height: 80%;
+    margin: 7rem 30rem;
+    border-radius: 5rem;
+    box-shadow: 7px 4px 22px 5px rgba(0,0,0,0.8);
+}
+
+.welcome-half-page {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10rem 15rem;
+    font-size: 4rem;
+    border-bottom-left-radius: 5rem;
+    justify-content: space-evenly;
+    border-top-left-radius: 5rem;
+    background: rgb(255,130,130);
+    background: linear-gradient(90deg, rgba(255,130,130,1) 0%, rgba(252,104,55,0.9923319669664741) 100%);
+}
+
+.welcome-class, .secondPartWelcome-class {
+    display: flex;
+    flex-direction: column;
+}
+
+.secondPartWelcome-class p {
+    font-size: 3rem;
+}
+
+button {
+    border-radius: 5rem;
+    border: 2px black solid;
+    font-size: 1.5rem;
+    padding: 2rem;
+    background-color: transparent;
+}
+
+button:hover {
+    border: 2px white solid;
+    letter-spacing: 0.5rem;
+    padding: 2rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    letter-spacing: 0.5rem;
+    color: white;
+}
+
+.welcome-half-page p{
+    color: rgba(203,195,201);
+}
+
+.form-half-page {
+    width: 50%;
+    text-align: center;
+    font-size: 4rem;
+    border-bottom-right-radius: 5rem;
+    border-top-right-radius: 5rem;
+    background-color: white;
+}
+
+.form-half-page p {
+    margin: 5rem;
+}
+
+.form-half-page form {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 5rem 10rem;
+}
+
+.form-half-page form input, .form-half-page form select {
+    background: rgba(203,195,201);
+    border: none;
+    padding: 1.5rem;
+    width: 90%;
+}
+
+.wrapper-form {
+    display: flex;
+    flex-direction: row;
+    background: rgba(203,195,201);
+}
+
+img {
+    margin: 1.5rem 1rem;
+    width: 10%;
+    height: 7%;
+}
+
+#btn {
+    background-color: rgba(252, 104, 55, 0.9923319669664741);
+    width: 60%;
+    border-radius: 5rem;
+    margin-left: 5rem;
+}
+
+#btn:hover {
+    box-shadow: 7px 14px 35px -1px rgba(0,0,0,0.84);
+}
+
+
+
